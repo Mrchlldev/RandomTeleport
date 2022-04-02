@@ -26,7 +26,7 @@ class DelayTask extends Task{
            $z = mt_rand(-300, 9091);
            $coor = $x." - ".$y." - ".$z;
            $player->teleport(new Position($x, $y, $z, $this->main->getConfig()->get("world")));
-           $player->sendMessage("§aSucsesfully Teleport To ".interval($coor));
+           $player->sendMessage("§aSucsesfully Teleport To ".intval($coor));
         }
     }
 }
