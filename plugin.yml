@@ -1,0 +1,13 @@
+name: RandomTeleport
+author: Theslowaja
+main: Theslowaja\Rtp\Main
+api: 4.0.0
+version: 1.0.0
+
+commands:
+  rtp:
+    permission: rtp.command
+
+permissions:
+  rtp.command:
+    default: true
