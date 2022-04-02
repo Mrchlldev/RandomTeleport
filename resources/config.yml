@@ -1,0 +1,5 @@
+# 5 sec is default
+delay: 5
+
+#select world to teleport
+world: survival
