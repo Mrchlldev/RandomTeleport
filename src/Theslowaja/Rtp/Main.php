@@ -11,6 +11,8 @@ use pocketmine\command\{
 use pockdtmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 
+use pocketmine\utils\Config;
+
 class Main extends PluginBase implements Listener{
 	
 	public function onEnable():void{
