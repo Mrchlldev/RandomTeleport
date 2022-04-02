@@ -4,6 +4,7 @@ namespace Theslowaja\Rtp;
 
 use pocketmine\player\Player;
 use pocketmine\world\World;
+use pocketmine\math\Vector3;
 use pocketmine\scheduler\Task;
 use Theslowaja\Rtp\Main;
 
@@ -23,7 +24,7 @@ class DelayTask extends Task{
            $y = mt_rand(70, 120);
            $z = mt_rand(-300, 909990);
            $coor = $x.$y.$z;
-           $player->teleport($x, $y, $z, $this->main->getConfig()->get("world"));
+           $player->teleport(new Vector3($x, $y, $z, $this->main->getConfig()->get("world")));
            $player->sendMessage("§aSucsesfully Teleport To ".$coor);
         }
     }
