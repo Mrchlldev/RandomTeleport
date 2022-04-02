@@ -8,7 +8,7 @@ use pocketmine\command\{
 	Command,
 	CommandSender
 };
-use pockdtmine\plugin\PluginBase;
+use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 
 use pocketmine\utils\Config;
