@@ -18,6 +18,10 @@ class DelayTask extends Task{
     public function onRun(): void{
         $player = $this->main->getServer()->getPlayerExact($this->name);
         if($player->isOnline()){
+           $x = mt_rand(-300, 909990);
+           $y = mt_rand(70, 120);
+           $y = mt_rand(-300, 909990);
+           $coor = $x.$y.$z;
            $player->teleport($x, $y, $z, $this->main->getConfig()->get("world"));
            $player->sendMessage("§aSucsesfully Teleport To ".$coor);
         }
