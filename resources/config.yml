@@ -1,5 +1,8 @@
 # 5 sec is default
 delay: 5
 
-#select world to teleport
+# succes teleport message
+succes-teleport: "§aSuccesfully random teleport to: {COORDINATES}"
+
+# select world to teleport
 world: survival
