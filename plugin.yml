@@ -1,7 +1,7 @@
 name: RandomTeleport
 author: Theslowaja
 main: Theslowaja\Rtp\Main
-api: 4.0.0
+api: 5.0.0
 version: 1.0.0
 
 commands:
